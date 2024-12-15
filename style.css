@@ -1,0 +1,43 @@
+h1, h2, h3 {
+    font-family: Arial, sans-serif; /* Tipul de font */
+    color: #2c3e50; /* Culoarea fontului */
+}
+
+/* Definirea stilurilor pentru sectiuni de text */
+p {
+    font-family: Georgia, serif; /* Tipul de font pentru text */
+    color: #34495e; /* Culoarea fontului */
+    line-height: 1.6; /* Înaltimea liniei */
+    margin-bottom: 20px; /* Margine inferioara pentru paragrafe */
+}
+
+/* Stiluri pentru tabeluri */
+table {
+    width: 100%; /* Latimea tabelului */
+    border-collapse: collapse; /* Eliminarea marginilor dintre celule */
+    margin: 20px 0; /* Margini pentru tabel */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Margine tabel și celule */
+    padding: 8px; /* Padding în celule */
+}
+
+/* Margini rotunde pentru imagini */
+img {
+    border-radius: 10px; /* Margine rotunda pentru imagini */
+    opacity: 0.8; /* Opacitate imagine */
+    transition: opacity 0.3s ease; /* Tranzitie pentru opacitate */
+}
+
+/* Culori de fundal pentru sectiuni */
+section {
+    background-color: #ecf0f1; /* Culoare fundal sectiune */
+    padding: 30px; /* Padding pentru sectiuni */
+    margin: 20px 0; /* Margine pentru sectiuni */
+}
+
+/* Schimbarea opacitatii imaginii la dublu-click */
+img:hover {
+    opacity: 1; /* Opacitate maxima la hover */
+}
